@@ -1,0 +1,10 @@
+PLINK v1.90b2p 64-bit (18 Jun 2014)
+4 arguments: --file toy --genome ./DATA/toy
+Hostname: pc-ikizema
+Working directory: /home/ikizema/Téléchargements/plink2_v1
+Start time: Thu May 14 12:19:04 2015
+
+Error: Invalid --genome parameter './DATA/toy'.
+For more information, try 'plink --help [flag name]' or 'plink --help | more'.
+
+End time: Thu May 14 12:19:04 2015
