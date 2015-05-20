@@ -64,3 +64,8 @@ plinkw: $(SRC)
 clean:
 	rm -f *.o *~
 	mv plink plink-previous
+	cd zlib-1.2.8/
+	make clean
+	./configure
+	make
+	cd ..

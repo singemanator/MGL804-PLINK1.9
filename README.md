@@ -6,9 +6,11 @@
 
 2. Open IDE Terminal
 
-3. Type "make" for compile the code
+3. Type ./clean on each reload of project
 
-4. Type "make clean" to clean the previous compilation and type "make" to compile the new code
+4. Type "make" for compile the code
+
+5. Type "make clean" to clean the previous compilation and type "make" to compile the new code
 
 #**Software requirements**
 Please install following with dependencies :
