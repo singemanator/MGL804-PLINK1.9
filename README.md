@@ -15,7 +15,7 @@ For ubuntu please run ./initialUbuntu
 
 5. Type ./makeclean to clean the previous compilation and type "make" to compile the new code
 
-#**Work with plink**./p 
+#**Work with plink**
 Once the compilation has been done, you can execute plink binary.
 
 #**References**
