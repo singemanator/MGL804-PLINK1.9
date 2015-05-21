@@ -1,10 +1,10 @@
 PLINK v1.90b2p 64-bit (18 Jun 2014)
-3 arguments: --file toy --genome
+5 arguments: --cluster --file toy --read-genome plink.genome
 Hostname: pc-ikizema
-Working directory: /home/ikizema/DEV/MGL804/PLINK/plink2_v1/DATA
-Start time: Thu May 14 13:13:18 2015
+Working directory: /home/ikizema/DEV/MGL804/PLINK/MGL804-PLINK1.9/DATA
+Start time: Wed May 20 19:47:23 2015
 
-Random number seed: 1431623598
+Random number seed: 1432165643
 15977 MB RAM detected; reserving 7988 MB for main workspace.
 Scanning .ped file... done.
 Performing single-pass .bed write (2 variants, 2 people).
@@ -13,12 +13,13 @@ written.
 2 variants loaded from .bim file.
 2 people (2 males, 0 females) loaded from .fam.
 2 phenotype values loaded from .fam.
-Using up to 4 threads (change this with --threads).
+Using 1 thread (no multithreaded calculations invoked).
 Calculating allele frequencies... done.
 Total genotyping rate is 0.75.
 2 variants and 2 people pass filters and QC.
 Among remaining phenotypes, 1 is a case and 1 is a control.
-IBD calculations complete.
-Finished writing plink.genome .
+Clustering... done.
+Cluster solution written to plink.cluster1 , plink.cluster2 , and
+plink.cluster3 .
 
-End time: Thu May 14 13:13:18 2015
+End time: Wed May 20 19:47:23 2015

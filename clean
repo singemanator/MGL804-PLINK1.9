@@ -2,6 +2,8 @@
 rm -f *.o *~
 mv plink plink-previous
 cd zlib-1.2.8/
+ln -s libz.so.1.2.8 ./libz.so
+ln -s libz.so.1.2.8 ./libz.so.1
 make clean
 ./configure
 make
