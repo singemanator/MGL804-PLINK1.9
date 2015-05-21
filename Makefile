@@ -60,12 +60,3 @@ plink: $(SRC)
 plinkw: $(SRC)
 	g++ $(CFLAGS) $(SRC) -c
 	gfortran -O2 $(OBJ) -o plink -Wl,-Bstatic $(BLASFLAGS) $(LINKFLAGS) -L. $(ZLIB)
-
-clean:
-	rm -f *.o *~
-	mv plink plink-previous
-	cd zlib-1.2.8/
-	make clean
-	./configure
-	make
-	cd ..

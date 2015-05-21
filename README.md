@@ -1,5 +1,8 @@
 # MGL802-PLINK1.9
 
+#**Software requirements**
+For ubuntu please run ./initialUbuntu
+
 #**Use code with IntelliJ IDEA IDE**
 
 1. Import new project from your git account
@@ -10,15 +13,9 @@
 
 4. Type "make" for compile the code
 
-5. Type "make clean" to clean the previous compilation and type "make" to compile the new code
+5. Type ./makeclean to clean the previous compilation and type "make" to compile the new code
 
-#**Software requirements**
-Please install following with dependencies :
-
-- gcc
-- make
-
-#**Work with plink**
+#**Work with plink**./p 
 Once the compilation has been done, you can execute plink binary.
 
 #**References**
